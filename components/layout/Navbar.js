@@ -267,12 +267,11 @@ const Navbar = ({ navbg }) => {
                   style={{ display: "flex", gap: "5px" }}
                 >
                   {" "}
-                  <Image
-                    height={"6"}
-                    width={"15"}
-                    src="/contact.png"
-                    alt="logo"
-                  />
+                  <div className="w-[15px] h-[13px] md:mt-[8px] mt-1 relative">
+                  <Image fill src="/contact.png" alt="logo" cover />
+
+                  </div>
+                
                   <ListItem
                     className="font-bold text-sm md:text-base lg:text-lg inline-block border-b-2 border-transparent transition duration-300 ease-in-out hover:border-b-2 hover:border-primary hover:font-bold "
                     itemname="Contact Us"
