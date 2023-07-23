@@ -267,7 +267,7 @@ const Navbar = ({ navbg }) => {
                   style={{ display: "flex", gap: "5px" }}
                 >
                   {" "}
-                  <div className="w-[15px] h-[13px] md:mt-[8px] mt-1 relative">
+                  <div className="w-[15px] h-[13px] mt-1 md:mt-[6px] lg:mt-[8px]   relative">
                   <Image fill src="/contact.png" alt="logo" cover />
 
                   </div>

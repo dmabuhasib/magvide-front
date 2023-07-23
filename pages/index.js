@@ -11,7 +11,7 @@ import Layout from "@/components/layout/Layout";
 export default function Home() {
   return (
     <>
-      <Layout navbg="bg-white">
+      <Layout >
         <Banner />
         <BannerBottom />
         <AboutUsSec />
